@@ -13,5 +13,5 @@ jobs:
                   uses: appleboy/ssh-action@master
                   with:
                       username: ${{ secrets.FTP_USERNAME }}
-                      server: ${{ secrets.FTP_SERVER }}
+                      host: ${{ secrets.FTP_SERVER }}
                       password: ${{ secrets.FTP_PASSWORD }}
