@@ -17,4 +17,6 @@ jobs:
                       password: ${{ secrets.SSH_PASSWORD }}
                       script: |
                         whoami
-                        ls -al
+                        cd ./public_html/test.nikahhelp.com
+                        ls
+                        
