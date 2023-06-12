@@ -19,4 +19,4 @@ jobs:
                         whoami
                         cd ./public_html/test.nikahhelp.com
                         ls
-                        
+                        git clone https://github.com/Ru1n00/test.git
