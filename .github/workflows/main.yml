@@ -14,5 +14,5 @@ jobs:
                   with:
                       username: ${{ secrets.FTP_USERNAME }}
                       host: ${{ secrets.FTP_SERVER }}
-                      port: 21
+                      port: ${{ secrets.FTP_PORT }}
                       password: ${{ secrets.FTP_PASSWORD }}
