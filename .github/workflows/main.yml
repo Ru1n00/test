@@ -15,4 +15,4 @@ jobs:
                       host: ${{ secrets.SSH_HOST }}
                       username: ${{ secrets.SSH_USERNAME }}
                       password: ${{ secrets.SSH_PASSWORD }}
-                      script: ${{ secrets.SCRIPT_CMD }}
+                      script: ${{ secrets.BACKEND_CMD }}
